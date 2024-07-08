@@ -1,3 +1,5 @@
+repeat wait() until game:IsLoaded()
+wait(2)
 getgenv().fireproximityprompt=function(pp)
     pp.Enabled=true
     pp.HoldDuration=0

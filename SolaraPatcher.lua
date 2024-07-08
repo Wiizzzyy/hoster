@@ -6,4 +6,4 @@ getgenv().fireproximityprompt=function(pp)
     task.wait()
     pp:InputHoldEnd()
 end
-queue_on_teleport()
+queue_on_teleport(game:HttpGet('https://raw.githubusercontent.com/Wiizzzyy/hoster/main/SolaraPatcher.lua'))
